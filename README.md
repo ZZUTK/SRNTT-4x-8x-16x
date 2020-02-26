@@ -5,6 +5,8 @@ More specifically, 8x and 16x are achieved by adding the subpixel layer(s) befor
 The models are trained on Painting images ([Google Art](https://commons.wikimedia.org/wiki/Category:Gigapixel_images_from_the_Google_Art_Project)) for 30 epochs (first 10 epochs with L1 loss only and then 20 epochs with all losses).
 The other settings are the same as the original SRNTT.
 
+**Note: These models do not ensure the optimal performance.**
+
 ## Test
 
 ```bash
